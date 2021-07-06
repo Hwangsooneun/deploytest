@@ -6,7 +6,7 @@ sudo chmod -R 777 /home/ubuntu/server
 cd /home/ubuntu/server
 
 #install node modules
-sudo npm install
+npm install
 
 #start our node app in the background(pm2)
 authbind --deep pm2 start index.js
