@@ -8,5 +8,3 @@ cd /home/ubuntu/server
 #install node modules
 npm install
 
-#start our node app in the background(pm2)
-authbind --deep pm2 start index.js
